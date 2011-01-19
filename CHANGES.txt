@@ -1,10 +1,10 @@
 CHANGES
 *******
 
-2.0.2 (unreleased)
-==================
+2.0.1-1 (2011-01-19)
+====================
 
-- Nothing changed yet.
+- Added forgotten dependency on ``js.jquery``
 
 
 2.0.1 (2011-01-19)
