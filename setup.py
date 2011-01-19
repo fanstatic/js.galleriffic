@@ -8,7 +8,7 @@ import os
 # For example, a packaging bugfix release version 1.4.4 of the
 # js.jquery package would be version 1.4.4-1 .
 
-version = '2.0.2dev'
+version = '2.0.1-1'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
@@ -26,7 +26,7 @@ setup(
     description="Fanstatic packaging of Galleriffic",
     long_description=long_description,
     classifiers=[],
-    keywords='',
+    keywords='Fanstatic Jquery Galleriffic',
     author='Fanstatic Developers',
     author_email='fanstatic@googlegroups.com',
     license='BSD',
@@ -35,6 +35,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'fanstatic',
+        'js.jquery',
         'setuptools',
         ],
     entry_points={
